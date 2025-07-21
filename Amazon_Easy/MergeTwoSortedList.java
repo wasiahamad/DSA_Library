@@ -28,7 +28,7 @@ public class MergeTwoSortedList {
 
         ListNode mergedHead = l1;
         while (l1 != null && l2 != null) {
-            ListNode temp = null;
+            ListNode temp = l1;
             while (l1 != null && l1.val <= l2.val) {
                 temp = l1;
                 l1 = l1.next;
