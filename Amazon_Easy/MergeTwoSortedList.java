@@ -7,7 +7,6 @@
 
 
 package DSA_Library.Amazon_Easy;
-import java.util.*;
 class ListNode {
     int val;
     ListNode next;
