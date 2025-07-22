@@ -50,5 +50,14 @@ public class IntersectionTwoList {
         headB.next = new ListNode(1);
         headB.next.next = common;
 
+        // Find intersection
+        ListNode result = getIntersectionNode(headA, headB);
+
+        // Output the result
+        if (result != null) {
+            System.out.println("Intersection at node with value: " + result.val);
+        } else {
+            System.out.println("No intersection found.");
+        }
     }
 }
