@@ -1,3 +1,9 @@
+// DSA_Library/Amazon_Medium/PartisionList.java
+// Problem Statement:
+// Given the head of a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x.
+// You should preserve the original relative order of the nodes in each of the two partitions.
+
+
 package DSA_Library.Amazon_Medium;
 
 public class PartisionList {
@@ -61,3 +67,5 @@ public class PartisionList {
         // Output: 1 2 2 4 3 5
     }
 }
+
+
