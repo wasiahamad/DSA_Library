@@ -16,4 +16,4 @@ The main goals of the **DSA_Library** project are:
 
 ## 📚 Languages and Technologies
 
-- **Java**: Main programming language for challenges
+- **Java**: Main programming language 
