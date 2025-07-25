@@ -3,7 +3,7 @@ package DSA_Library.Amazon_Medium;
 public class SumOfSubArrayRange {
     // function of SumOfSubArrayRange
 
-    public static int sumRange(int[] arr) {
+    public static int sumSubArrayRange(int[] arr) {
         int ans = 0;
         for (int i = 0; i < arr.length; i++) {
             int max = arr[i];
@@ -20,7 +20,7 @@ public class SumOfSubArrayRange {
 
     public static void main(String[] args) {
         int arr[] = {1, 2, 3};
-        int sum = sumRange(arr);
+        int sum = sumSubArrayRange(arr);
         System.out.println(sum);
     }
 }
