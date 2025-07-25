@@ -1,3 +1,13 @@
+// DSA_Library/Amazon_Medium/SumOfSubArrayRange.java
+// Problem Statement:
+// Given an array of integers nums, return the sum of all subarray ranges.
+// A subarray is a contiguous non-empty sequence of elements within an array.
+
+// Example 1:
+// Input: nums = [1,2,3]
+// Output: 4
+
+
 package DSA_Library.Amazon_Medium;
 
 public class SumOfSubArrayRange {
