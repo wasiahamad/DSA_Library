@@ -1,3 +1,6 @@
+//  Problme statement: 
+
+
 package DSA_Library.Amazon_Medium;
 
 public class CarPooling {
@@ -5,8 +8,8 @@ public class CarPooling {
     public static Boolean carPooling(int trips[][], int capicity) {
         int m[] = new int[1001];
         for (int a[] : trips) {
-            m[1] += a[0];
-            m[2] -= a[0]; 
+            m[a[1]] += a[0];
+            m[a[2]] -= a[0]; 
         }
 
         for (int i = 0; i < 1001 && capicity >= 0; i++) {
