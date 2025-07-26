@@ -12,7 +12,6 @@ public class CarPooling {
         for (int i = 0; i < 1001 && capicity >= 0; i++) {
             capicity -= m[i];
         }
-
         return capicity >= 0;
     }
 
