@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.PriorityQueue;
-
+import java.util.*;
 public class FindClosestElemant {
     // ------------------- Approch:- 1 (using two pointer) ------------------find K closest element
     public static List<Integer> findClosestElements(int[] arr, int k, int x) {
