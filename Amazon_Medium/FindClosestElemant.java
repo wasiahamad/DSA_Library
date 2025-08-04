@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 public class FindClosestElemant {
-    // find K closest element
+    // ------------------- Approch:- 1 (using two pointer) ------------------find K closest element
     public static List<Integer> findClosestElements(int[] arr, int k, int x) {
         int left = 0;
         int right = arr.length - 1;
@@ -21,7 +21,8 @@ public class FindClosestElemant {
         return ans;
     }
 
-    // Approch:- 2 (using priorityQueue)
+
+    // ------------------ Approch:- 2 (using priorityQueue)---------------
 
     public List<Integer> findClosestElement(int[] arr, int k, int x) {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
