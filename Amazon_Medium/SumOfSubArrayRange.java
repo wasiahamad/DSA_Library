@@ -8,7 +8,7 @@
 // Output: 4
 
 
-package DSA_Library.Amazon_Medium;
+// package DSA_Library.Amazon_Medium;
 
 public class SumOfSubArrayRange {
     // function of SumOfSubArrayRange

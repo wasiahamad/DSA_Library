@@ -1,7 +1,7 @@
 //  Problme statement: 
 
 
-package DSA_Library.Amazon_Medium;
+// package DSA_Library.Amazon_Medium;
 
 public class CarPooling {
     // method for car Pooling 

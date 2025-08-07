@@ -4,7 +4,7 @@
 // You should preserve the original relative order of the nodes in each of the two partitions.
 
 
-package DSA_Library.Amazon_Medium;
+// package DSA_Library.Amazon_Medium;
 
 public class PartisionList {
     public static class ListNode {
