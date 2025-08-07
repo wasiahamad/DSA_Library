@@ -19,9 +19,12 @@ public class KthLargestElement {
     public static int findKthLargestUsingTwoPoniter(int[] nums, int k) {
         int left = 0;
         int right = nums.length - 1;
-        while (right - left + 1 > k) { 
-            if (nums[left] < nums[right]) {
-                left++;
+        while (left <= right) {
+            int pivot = left + (right - left) / 2;
+            if (nums[pivot] < nums[right]) {
+                right = pivot;
+            } else if (nums[pivot] > nums[right]) {
+                left = pivot + 1;
             } else {
                 right--;
             }
